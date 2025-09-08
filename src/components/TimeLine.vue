@@ -1,5 +1,8 @@
 <template>
-  <UTimeline color="neutral" :default-value="1" :items="items" class="w-96"> </UTimeline>
+  <UCard variant="subtle">
+    <template #header> <div class="text-xl font-bold">Mein bisheriger Werdegang</div></template>
+    <UTimeline color="neutral" :default-value="1" :items="items" class="w-96"> </UTimeline>
+  </UCard>
 </template>
 
 <script setup lang="ts">

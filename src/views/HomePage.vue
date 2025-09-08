@@ -1,7 +1,8 @@
 <template>
-  <UContainer class="flex flex-col gap-10">
-    <UCard><p>Hello</p></UCard>
-    <TimeLine class="flex self-center justify-center" />
+  <UContainer class="flex flex-col gap-10 my-0.5">
+    <IntroductionCard id="introduction" />
+    <TimeLine id="werdegang" />
+    <ProjectsCard id="projekte" />
   </UContainer>
 </template>
 
