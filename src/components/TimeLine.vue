@@ -1,7 +1,7 @@
 <template>
   <UCard variant="subtle">
-    <template #header> <div class="text-xl font-bold">Mein bisheriger Werdegang</div></template>
-    <UTimeline color="neutral" :default-value="1" :items="items" class="w-96"> </UTimeline>
+    <template #header> <div class="text-xl font-bold">Mein Werdegang</div></template>
+    <UTimeline color="neutral" :default-value="1" :items="items"> </UTimeline>
   </UCard>
 </template>
 
@@ -14,30 +14,29 @@ const items = ref<TimelineItem[]>([
     title: 'HTWK Leipzig',
     description: "M.Sc. Informatik: 'ConsentServer:'",
     icon: 'i-lucide-graduation-cap',
+    slot: 'link' as const,
+    link: 'https://www.htwk-leipzig.de',
   },
   {
     date: 'Sep 2021 - heute',
     title: 'SV SparkassenVersicherung Lebensversicherung AG',
     description: 'Werkstudent',
     icon: 'i-lucide-code',
+    link: 'https://www.sparkassenversicherung.de',
   },
   {
     date: 'Apr 2021 - Sep 2021',
     title: 'SV SparkassenVersicherung Lebensversicherung AG',
     description: 'Pflichtpraktikum',
     icon: 'i-lucide-code',
+    link: 'https://www.sparkassenversicherung.de',
   },
   {
-    date: 'Sept 2018 bis Nov 2022',
+    date: 'Sep 2018 bis Nov 2022',
     title: 'Technische Hochschule Mannheim',
     description: "B.Sc. Informatik: 'Reinforcement Learning'",
     icon: 'i-lucide-graduation-cap',
-  },
-  {
-    date: 'Apr 5 2025',
-    title: 'Testing & Deployment',
-    description: 'QA testing and performance optimization. Deployed the application to production.',
-    icon: 'i-lucide-check-circle',
+    link: 'https://www.hs-mannheim.de',
   },
 ])
 </script>
