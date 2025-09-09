@@ -25,7 +25,7 @@ const visibleTabs = ref<string[]>(['introduction'])
 
 import { onMounted, onBeforeUnmount, ref as vueRef, nextTick } from 'vue'
 
-const sectionIds = (items.value as any[]).map((item) => String(item.value))
+const sectionIds = (items.value as TabsItem[]).map((item) => String(item.value))
 const contentContainer = vueRef<HTMLElement | null>(null)
 
 const navigateToSection = (sectionId: string | number) => {
