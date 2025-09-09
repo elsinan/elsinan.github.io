@@ -2,11 +2,16 @@
   <UContainer
     class="sticky top-0 bg-accented border-b-2 border-neutral-300 flex items-center h-16 z-10"
   >
-    <UContainer class="flex justify-between">
+    <UContainer class="flex justify-between flex-wrap">
       <h3 class="font-bold text-xl">Sinan Elmas</h3>
       <div class="flex gap-2">
-        <UButton color="neutral" variant="outline" icon="i-devicon:github" label="GitHub-Profil" />
-        <UButton color="neutral" variant="outline" icon="i-devicon:github" label="GitHub-Profil" />
+        <UButton
+          color="neutral"
+          variant="subtle"
+          icon="i-devicon:github"
+          label="GitHub Profil"
+          href="https://github.com/elsinan"
+        />
       </div>
     </UContainer>
   </UContainer>
@@ -40,6 +45,11 @@ const items = ref<TabsItem[]>([
     label: 'Links',
     icon: 'i-lucide-link',
     value: 'introduction',
+  },
+  {
+    label: 'Tech-Stack',
+    icon: 'i-lucide-cpu',
+    value: 'techstack',
   },
   {
     label: 'Werdegang',
