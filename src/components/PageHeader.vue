@@ -2,29 +2,18 @@
   <UContainer
     class="sticky top-0 bg-accented border-b-2 border-neutral-300 flex items-center h-16 z-10"
   >
-    <UContainer class="flex justify-between flex-wrap">
-      <h3 class="font-bold text-xl">Sinan Elmas</h3>
-      <div class="flex gap-2">
-        <UButton
-          color="neutral"
-          variant="subtle"
-          icon="i-devicon:github"
-          label="GitHub Profil"
-          href="https://github.com/elsinan"
-        />
-      </div>
-    </UContainer>
+    <h3 class="font-bold text-xl">Sinan Elmas</h3>
   </UContainer>
 
   <UContainer
-    class="sticky top-16 flex gap-2 items-center justify-center-safe bg-accented z-10 py-3 shadow-lg rounded-b-full"
+    class="sticky top-16 flex gap-5 items-center justify-center-safe bg-accented z-10 py-3 shadow-lg rounded-b-full"
   >
     <div v-for="item in items" :key="item.value">
       <UButton
-        class="text-neutral-500 dark:text-neutral-400 hover:text-default"
-        @click="item.value !== undefined && navigateToSection(String(item.value))"
+        class="text-neutral-500 dark:text-neutral-400 hover:text-default hover:"
         :icon="item.icon"
         :label="isMd ? item.label : ''"
+        @click="item.value !== undefined && navigateToSection(String(item.value))"
         variant="link"
       >
       </UButton>
@@ -34,16 +23,16 @@
 
 <script setup lang="ts">
 import { ref } from 'vue'
-import type { TabsItem } from '@nuxt/ui'
 
 const isMd = ref(window.innerWidth >= 768)
+
 window.addEventListener('resize', () => {
   isMd.value = window.innerWidth >= 768
 })
 
-const items = ref<TabsItem[]>([
+const items = [
   {
-    label: 'Links',
+    label: 'Kontakt',
     icon: 'i-lucide-link',
     value: 'introduction',
   },
@@ -62,7 +51,7 @@ const items = ref<TabsItem[]>([
     icon: 'i-lucide-rocket',
     value: 'projekte',
   },
-])
+]
 
 function navigateToSection(sectionId: string) {
   const el = document.getElementById(sectionId)
