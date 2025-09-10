@@ -1,7 +1,7 @@
 <template>
   <UCard variant="subtle" class="h-min">
     <template #header>
-      <span class="font-semibold">Technologien & Tools, die ich nutze</span>
+      <span class="font-semibold">Technologien & Tools, mit denen ich schon gearbeitet habe</span>
     </template>
     <div class="flex flex-wrap gap-2">
       <div v-for="tech in technologies" :key="tech.icon">
@@ -43,5 +43,6 @@ const technologies = [
   { icon: 'i-devicon:vuejs', label: 'Vue.js' },
   { icon: 'i-devicon:vscode', label: 'VS Code' },
   { icon: 'i-devicon:wordpress', label: 'WordPress' },
+  { icon: 'i-lucide-squircle-dashed', label: '...und es werden mehr!' },
 ]
 </script>
