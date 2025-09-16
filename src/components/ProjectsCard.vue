@@ -17,7 +17,7 @@
         ]"
         title="ConsentServer"
         ongoing
-        description="Masterprojekt und -arbeit zum Thema Consent Management in den Bildungswissenschaften an der HTWK. Für Anwendungen, bei denen personenbezogene Daten verarbeitet werden müssen und nicht zwingend notwendig für das Studienerfolg sind, muss eine Einwilligung eingeholt werden. Der Consent Server zentralisiert die Einholung sowie Verwaltung der Einwilligungen und Datenschutzerklärungen für die Anwendungen."
+        description="Masterprojekt und -arbeit zum Thema Consent Management in den Bildungswissenschaften an der HTWK: Für Anwendungen, bei denen personenbezogene Daten verarbeitet werden müssen und die nicht zwingend notwendig für den Studienerfolg sind, muss eine Einwilligung eingeholt werden. Der ConsentServer zentralisiert die Einholung sowie Verwaltung der Einwilligungen und Datenschutzerklärungen für die Anwendungen."
         :used-technologies="['C#', 'PostgreSQL', 'Vue.js', 'TailwindCSS', 'TypeScript']"
         github-link="https://gitlab.dit.htwk-leipzig.de/masterprojekt-consent-server-2024"
         project-link="https://gitlab.dit.htwk-leipzig.de/masterprojekt-consent-server-2024"
