@@ -20,7 +20,7 @@
         </p>
         <p>Nutze gerne die Kontaktmöglichkeiten, um mit mir in Verbindung zu treten :)</p>
       </UContainer>
-      <UContainer class="flex md:flex-col gap-4 md:w-sm items-start md:items-stretch flex-wrap">
+      <UContainer class="flex md:flex-col gap-4 md:w-sm justify-center items-stretch flex-wrap">
         <UButton
           icon="i-devicon:github"
           :variant="isDark ? 'solid' : 'outline'"

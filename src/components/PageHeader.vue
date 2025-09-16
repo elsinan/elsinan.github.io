@@ -10,7 +10,7 @@
   >
     <div v-for="item in items" :key="item.value">
       <UButton
-        class="text-neutral-500 dark:text-neutral-400 hover:text-default hover:"
+        class="text-neutral-500 dark:text-neutral-400 hover:text-default cursor-pointer"
         :icon="item.icon"
         :label="isMd ? item.label : ''"
         @click="item.value !== undefined && navigateToSection(String(item.value))"

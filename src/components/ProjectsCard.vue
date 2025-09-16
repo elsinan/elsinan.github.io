@@ -11,9 +11,9 @@
         project-link="http://trackyourthings-frontend.polandcentral.azurecontainer.io/"
       />
       <ProjectComponent
-        :image-srcs="[
-          './src/assets/consent_server_admin.png',
-          './src/assets/consent_server_user.png',
+        :images="[
+          { src: 'consent_server_admin.png', scale: '100' },
+          { src: 'consent_server_user.png', scale: '70' },
         ]"
         title="ConsentServer"
         ongoing

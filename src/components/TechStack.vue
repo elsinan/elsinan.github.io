@@ -11,7 +11,7 @@
           :icon="tech.icon"
           size="lg"
           :label="tech.label"
-          class="not-hover:grayscale dark:not-hover:brightness-105 not-hover:brightness-95"
+          class="not-hover:grayscale dark:not-hover:brightness-105 not-hover:brightness-95 cursor-default"
         />
       </div>
     </div>
