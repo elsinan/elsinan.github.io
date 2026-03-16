@@ -27,7 +27,6 @@
           :src="`https://raw.githubusercontent.com/elsinan/elsinan.github.io/refs/heads/main/src/assets/${item.src}`"
           class="border-2 border-accented rounded-lg overflow-clip"
           :width="`${item.scale}%`"
-          :style="contentHeight ? { 'max-height': contentHeight * 1.5 } : ''"
         />
       </UCarousel>
       <div :id="`${title}Content`" class="flex flex-col gap-3 h-min">
