@@ -17,7 +17,7 @@
           { src: 'leipzig_lakers_new.png', scale: '100' },
           { src: 'leipzig_lakers_old.png', scale: '100' },
         ]"
-        description="Umbau des Internetauftritts des Basketballvereins Leipzig Lakers und grafisches Update zu einer modernen Oberfläche."
+        description="Das Projekt umfasst den Umbau des Internetauftritts des Basketballvereins Leipzig Lakers und insbesondere die Aktualisierung der veralteten Oberfläche zu einer neuen moderneren Design. Dabei wurde eine neue Homepage erstellt und die Seiten an das neue Design angepasst."
         :used-technologies="['WordPress']"
         project-link="https://www.leipziglakers.de/"
       />
