@@ -14,8 +14,8 @@
         title="Leipzig Lakers Webseite"
         ongoing
         :images="[
-          { src: 'leipzig_lakers_new.png', scale: '100' },
-          { src: 'leipzig_lakers_old.png', scale: '100' },
+          { src: 'leipzig_lakers_new.png', scale: '50' },
+          { src: 'leipzig_lakers_old.png', scale: '50' },
         ]"
         description="Umbau des Internetauftritts des Basketballvereins Leipzig Lakers und grafisches Update zu einer modernen Oberfläche."
         :used-technologies="['WordPress']"
