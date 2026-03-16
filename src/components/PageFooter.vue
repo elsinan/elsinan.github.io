@@ -1,6 +1,6 @@
 <template>
   <UContainer class="flex justify-center items-center gap-3">
-    <span>© 2025 Sinan Elmas </span>
+    <span>© 2026 Sinan Elmas </span>
     <span></span>
     <UButton
       trailing-icon="i-devicon:github"
